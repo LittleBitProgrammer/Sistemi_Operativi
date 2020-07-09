@@ -15,7 +15,7 @@ int main(void){
     * getuid() return the userID
     * getgid() return the groupUserID
     */
-    printf("uid = %d, gid = %d", getuid(), getgid());
+    printf("uid = %d, gid = %d\n", getuid(), getgid());
 
     // Operating System Code
     return 0;
