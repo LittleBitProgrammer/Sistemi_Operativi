@@ -1,8 +1,9 @@
 /*
-* Nome: myls.c
-* Scopo: Elencare i file di una directory
+* Nome:   myls.c
+* Scopo:  Elencare i file di una directory
 * Autore: Roberto Vecchio
-* Data: 08 Luglio 2020
+* Data:   08 Luglio 2020
+* Build:  cc -o myls myls.c -Wall -I SCADDRESS/include/ -L SCADDRESS/lib/ -lapue
 */
 
 // Directive
