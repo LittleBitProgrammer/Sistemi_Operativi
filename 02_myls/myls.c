@@ -4,6 +4,7 @@
 * Autore: Roberto Vecchio
 * Data:   08 Luglio 2020
 * Build:  cc -o myls myls.c -Wall -I SCADDRESS/include/ -L SCADDRESS/lib/ -lapue
+* Example Build: gcc -Wall -o myls myls.c -I /usr/local/include/ -L /usr/local/lib/ -lapue
 */
 
 // Directive
