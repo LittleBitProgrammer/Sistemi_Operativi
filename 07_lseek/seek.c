@@ -1,3 +1,13 @@
+/*
+* Nome: seek.c
+* Scopo: stampare a video se l'operazione lseek è andata a buon fine o meno e se viene eseguita con successo allegare in output
+*        l'offset corrente
+* Data: 06 Agosto 2020
+* Autore: Roberto Vecchio ©
+* build: gcc -Wall -o seek seek.c
+* execution_test_one: ./seek < /etc/motd
+* 
+*/
 // DIRECTIVE
 #include <stdio.h>  // per usare printf
 #include <unistd.h> // per usare lseek e il tipo off_t
