@@ -1,3 +1,10 @@
+/*
+* Nome: main.c
+* Scopo: dimostrare l'utilizzo della system call dup2()
+* Data: 11 Agosto 2020
+* Autore: Roberto Vecchio && Carlo Lomello ©
+* Build: gcc -Wall -o test main.c
+*/
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -19,12 +26,6 @@ int main(void){
     printf("second fd = %d\n", filedes2);
 
     newfd = dup2(filedes,filedes2);
-
-    printf("====================================\n");
-    printf("first fd = %d\n", filedes);
-    printf("second fd = %d\n", filedes2);
-    printf("Newfd = %d\n", newfd);
-    printf("====================================\n");
 
     if(write(filedes,"ciao",4) != 4){
         printf("Error\n");

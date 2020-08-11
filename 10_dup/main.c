@@ -1,3 +1,10 @@
+/*
+* Nome: main.c
+* Scopo: dimostrare l'utilizzo della system call dup()
+* Data: 11 Agosto 2020
+* Autore: Roberto Vecchio && Carlo Lomello ©
+* Build: gcc -Wall -o test main.c
+*/
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
